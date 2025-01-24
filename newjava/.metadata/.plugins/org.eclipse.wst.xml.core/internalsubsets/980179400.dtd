@@ -1,0 +1,6 @@
+
+  <!ELEMENT library (book+)>
+  <!ELEMENT book (title, author, genre)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT author (#PCDATA)>
+  <!ELEMENT genre (#PCDATA)>

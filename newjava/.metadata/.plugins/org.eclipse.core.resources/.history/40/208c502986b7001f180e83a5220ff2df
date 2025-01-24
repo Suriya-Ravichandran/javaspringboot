@@ -1,0 +1,23 @@
+package muthumani;
+import java.util.*;
+
+public class collectionsexample {
+
+	public static void main(String[] args) {
+		//ArrayList<String> x=new ArrayList<String>();
+		//Vector<String> x=new Vector<String>();
+		//LinkedList<String> x=new LinkedList<String>();
+		//TreeSet<String> x=new TreeSet<String>();
+		LinkedHashSet<String> x=new LinkedHashSet<String>();
+		x.add("a");
+		x.add("x");
+		x.add("a");
+		x.add("m");
+		x.add("n");
+		//x.remove(2);
+		System.out.println(x);
+		x.remove("m");
+		System.out.println(x);
+	}
+
+}

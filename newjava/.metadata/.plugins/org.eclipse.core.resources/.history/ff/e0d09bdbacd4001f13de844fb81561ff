@@ -1,0 +1,28 @@
+package devi;
+
+class example
+{
+	void print()
+	{
+		System.out.println("welcomer");
+	}
+	
+	
+}
+class sample extends example
+{
+	 void add() {
+		 System.out.println("welcomer to java");
+	 }
+}
+public class abstractclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//example obj1=new example();
+		sample obj=new sample();
+		obj.add();
+		obj.print();
+	}
+
+}

@@ -1,0 +1,18 @@
+package muthumani;
+import java.util.*;
+
+public class collectionsexample {
+
+	public static void main(String[] args) {
+		ArrayList<String> x=new ArrayList<String>();
+		x.add("a");
+		x.add("x");
+		x.add("b");
+		x.add("m");
+		x.add("n");
+		System.out.println(x);
+		
+
+	}
+
+}

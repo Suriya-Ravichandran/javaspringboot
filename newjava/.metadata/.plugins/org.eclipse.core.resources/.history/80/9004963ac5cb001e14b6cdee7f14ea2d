@@ -1,0 +1,26 @@
+package awt;
+
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class SClass {
+
+	public static void main(String[] args) {
+		
+		JFrame ff = new JFrame();
+		
+		JLabel jl = new JLabel("Hii rasheed");
+		//jl.setBounds (40,70,150,40);
+		//jl.setLocation(250, 250);
+		jl.setBounds (20,30,150,40);
+		
+		ff.add(jl);
+		ff.setLayout(null);
+		ff.setSize(600,600);
+		ff.setVisible(true);
+
+
+	}
+
+}

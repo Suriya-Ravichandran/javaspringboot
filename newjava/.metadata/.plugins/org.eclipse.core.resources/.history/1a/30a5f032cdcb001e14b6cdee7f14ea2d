@@ -1,0 +1,11 @@
+package awt;
+import java.awt.*;
+
+public class mygui {
+	public static void main (String[] args) {
+		
+		//JFrame= a GUI window to add components to
+		
+		JFrame frame = new JFrame();
+}
+}

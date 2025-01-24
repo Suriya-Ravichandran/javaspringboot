@@ -1,0 +1,26 @@
+package muthu;
+
+
+// Main Class
+class Multit {
+	 
+	public static void main(String[] args)
+    {
+		
+	            // Displaying the thread that is running
+	            System.out.println(
+	                "main Thread " + Thread.currentThread().getId()
+	                + " is running");
+	    
+        int n = 8; // Number of threads
+        for (int i = 0; i <= n; i++) {
+            Thread object
+                = new Thread();
+            object.start();
+            //System.out.println(object.isAlive());
+            object.run();
+            System.out.println(object.isAlive());
+        }
+    }
+
+}

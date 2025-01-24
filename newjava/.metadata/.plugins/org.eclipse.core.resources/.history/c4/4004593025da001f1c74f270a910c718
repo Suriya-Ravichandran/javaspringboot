@@ -1,0 +1,29 @@
+package muthu;
+
+import java.io.*;
+
+public class example2
+{
+	
+public int show()
+{
+int m=100;
+int n=200;
+ int c=m+n;
+return c;
+}
+}
+
+
+class methodexample1{
+
+	public static void main(String[] args) {
+		example2 x=new example2();
+		int k=x.show();
+		System.out.println(k);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

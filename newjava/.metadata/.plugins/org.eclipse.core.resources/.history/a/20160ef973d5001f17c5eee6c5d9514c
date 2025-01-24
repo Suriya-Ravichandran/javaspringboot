@@ -1,0 +1,6 @@
+package com.example.demo;
+
+public class customer {
+	private Long id;
+    private String Address;
+}

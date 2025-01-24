@@ -1,0 +1,30 @@
+package muthu;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
+
+
+
+public class lamada1 {
+
+	public static void main(String[] args) {
+		List<Double> x=Arrays.asList(2.0,5.0,7.0,8.0);
+		List<String> y=Arrays.asList("ram","john","salim");
+		List<List<Integer>>z=new ArrayList<>();
+		System.out.println("List of the values="+y);
+		z.add(Arrays.asList(5,6));
+		z.add(Arrays.asList(7,8));
+		
+		//List listy=y.SDtream
+		
+		
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package muthu;
+
+class employee
+{
+	public int id=100;
+}
+
+public class copydemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

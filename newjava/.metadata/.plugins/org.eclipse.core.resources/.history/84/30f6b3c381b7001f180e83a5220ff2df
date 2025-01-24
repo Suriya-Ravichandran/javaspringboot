@@ -1,0 +1,11 @@
+package muthumani;
+import java.util.*;
+
+public class collectionsexample {
+
+	public static void main(String[] args) {
+		ArrayList<String> x=new ArrayList<String>();
+
+	}
+
+}

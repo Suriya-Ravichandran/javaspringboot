@@ -1,0 +1,25 @@
+package muthu;
+
+class employee{
+employee(int i)
+{
+	int z=i;
+}
+	void displays()
+	{
+	int id=100;
+	System.out.println(id);
+}
+}
+
+public class copydemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		employee x=new employee(100);
+		employee y=new employee(x);
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package muthu;
+
+class x1 extends Thread
+{
+	public void run()
+	{
+		for(int i=0;i<2;i++) {
+		System.out.println("welcomesub"+i);
+		}
+    }
+}
+public class thrad extends Thread {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		x1 t=new x1();
+		t.start();
+		t.wait(100);
+		thrad.start();
+		for(int i=0;i<2;i++) {
+			System.out.println("welcomemain"+i);
+			}
+		
+	}
+
+}
